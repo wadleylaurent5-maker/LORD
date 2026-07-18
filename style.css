@@ -1,0 +1,147 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a0a;
+    color: #ff0040;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.box {
+    background: #000;
+    border: 2px solid #ff0040;
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ff0040;
+}
+
+.sub {
+    text-align: center;
+    font-size: 9px;
+    color: rgba(255, 0, 64, 0.3);
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 0, 64, 0.02);
+    border: 1px solid rgba(255, 0, 64, 0.1);
+    border-radius: 8px;
+    color: #ff0040;
+    font-size: 18px;
+    text-align: center;
+    font-family: monospace;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #ff0040;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 0, 64, 0.02);
+    border: 1px solid rgba(255, 0, 64, 0.1);
+    border-radius: 8px;
+    color: #ff0040;
+    font-size: 14px;
+    font-family: monospace;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+select option {
+    background: #000;
+    color: #ff0040;
+}
+
+.send {
+    width: 100%;
+    padding: 14px;
+    background: #ff0040;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: monospace;
+    transition: all 0.3s;
+}
+
+.send:hover {
+    background: #ff1a4a;
+    transform: scale(1.02);
+}
+
+.send:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.st {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 10px;
+    display: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: monospace;
+}
+
+.st.show {
+    display: block;
+}
+
+.st.ok {
+    color: #ff0040;
+    border: 1px solid rgba(255, 0, 64, 0.1);
+}
+
+.st.err {
+    color: #f87171;
+    border: 1px solid rgba(248, 113, 113, 0.1);
+}
+
+.st.wait {
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.1);
+}
+
+.count {
+    text-align: center;
+    font-size: 9px;
+    color: rgba(255, 0, 64, 0.1);
+    margin-top: 8px;
+}
+
+.ft {
+    text-align: center;
+    font-size: 7px;
+    color: rgba(255, 0, 64, 0.04);
+    margin-top: 12px;
+    border-top: 1px solid rgba(255, 0, 64, 0.02);
+    padding-top: 12px;
+  }
